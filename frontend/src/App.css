@@ -1,0 +1,122 @@
+:root {
+  font-family: Inter, system-ui, Arial, sans-serif;
+  color: #111827;
+  background: #f3f4f6;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.app {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+header h1 {
+  margin: 0 0 8px;
+}
+
+.card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.layout {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.upload-label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+button {
+  margin-top: 12px;
+  border: 0;
+  border-radius: 8px;
+  padding: 10px 14px;
+  background: #2563eb;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+button:disabled {
+  background: #9ca3af;
+  cursor: not-allowed;
+}
+
+.error {
+  color: #b91c1c;
+}
+
+.canvas-wrap {
+  position: relative;
+  width: 100%;
+  overflow: auto;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+}
+
+.canvas-wrap img {
+  display: none;
+}
+
+.canvas-wrap canvas {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.image-wrap {
+  position: relative;
+  width: 100%;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.image-wrap img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.hint {
+  padding: 8px;
+  text-align: center;
+  font-size: 14px;
+  color: #6b7280;
+}
+
+.subtitle {
+  margin: 0;
+  color: #6b7280;
+}
+
+.metric {
+  font-size: 48px;
+  line-height: 1;
+  margin: 8px 0;
+  font-weight: 700;
+}
+
+ul {
+  margin: 0;
+  padding-left: 18px;
+}

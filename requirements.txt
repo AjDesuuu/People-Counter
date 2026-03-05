@@ -1,0 +1,19 @@
+# YOLO v11 Object Detection System Requirements
+
+# Core AI and Computer Vision
+ultralytics>=8.3.0          # YOLO v11 (latest version)
+opencv-python-headless>=4.8.0  # Computer vision (headless for deployment)
+torch>=2.0.0                # PyTorch for model inference
+torchvision>=0.15.0         # Vision utilities
+
+# Image Processing
+Pillow>=10.0.0              # Image handling
+numpy>=1.24.0               # Numerical operations
+
+# API Server
+Flask>=3.0.0                # Web API framework
+Flask-CORS>=4.0.0           # CORS support for React frontend
+gunicorn>=21.0.0            # Production WSGI server
+
+# Optional but recommended
+scipy>=1.11.0               # Scientific computing
